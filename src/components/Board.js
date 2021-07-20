@@ -2,7 +2,7 @@ import React from 'react'
 import Square from './Square'
 
 function renderSquare (i) {
-  return <Square />;
+  return <Square value = {i}/>;
 }
 
 export default function Board (props) {
